@@ -16,3 +16,10 @@ if genre == ':rainbow[Pop]':
     st.write('You selected pop.')
 else:
     st.write("You didn\'t select pop.")
+
+input = "lapin"
+list_possibilities=["rabit","race","rhyme","rogue"]
+correct_answer = "rabbit"
+st.write("Traduis: lapin")
+for i in range(len(list_possibilities)):
+    st.button(list_possibilities[i])
