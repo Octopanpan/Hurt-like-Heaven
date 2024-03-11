@@ -10,9 +10,9 @@ import streamlit as st
 genre = st.radio(
     "What's your favorite music genre",
     [":rainbow[Pop]", "***Rock***", "Jazz :saxophone:"],
-    captions = ["Dancing and Singing.", "Look at that sick guitar riff!", "Chill and relax."])
+    captions = ["Dancing and Singing.", "Look at that sick guitar riff!", "Chill and relax."]
 
-if genre == ':rainbow[Pop]:':
-    st.write('You selected Pop.')
+if genre == ':rainbow[Pop]':
+    st.write('You selected pop.')
 else:
-    st.write("You didn\'t select Pop.")
+    st.write("You didn\'t select pop.")
