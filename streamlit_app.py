@@ -23,3 +23,4 @@ correct_answer = "rabbit"
 st.write("Traduis: lapin")
 for i in range(len(list_possibilities)):
     st.button(list_possibilities[i])
+    
