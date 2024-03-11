@@ -13,7 +13,7 @@ genre = st.radio(
     [":rainbow[Pop]", "***Rock***", "Jazz :saxophone:"],
     captions = ["Dancing and Singing.", "Look at that sick guitar riff!", "Chill and relax."])
 
-if genre == ':***Rock***:':
-    st.write('You selected Rock.')
+if genre == ':rainbox[Pop]:':
+    st.write('You selected Pop.')
 else:
-    st.write("You didn\'t select Rock.")
+    st.write("You didn\'t select Pop.")
