@@ -18,7 +18,7 @@ else:
     st.write("You didn\'t select pop.")
 
 input = "lapin"
-list_possibilities=["rabit","race","rhyme","rogue"]
+list_possibilities=["rabbit","race","rhyme","rogue"]
 correct_answer = "rabbit"
 st.write("Traduis: lapin")
 for i in range(len(list_possibilities)):
