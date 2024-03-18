@@ -5,6 +5,6 @@ voc=pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ2cabWZZfzicR
 st.dataframe(voc)
 l=voc.shape[0]
 i=np.random.choice(range(l)) 
-word_fr= voc['Definiton'].values[i] 
+word_fr= voc['Définiton'].values[i] 
 word_chi= voc['Hanzi'].values[i] 
 st.write(word_frt+" "+ word_chi)
