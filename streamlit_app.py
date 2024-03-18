@@ -8,4 +8,3 @@ i=np.random.choice(range(l))
 word_fr=voc['Définiton'].values[i]
 word_chi=voc['Hanzi'].values[i]
 st.write(word_frt+" "+ word_chi)
-st.button ("refresh")
